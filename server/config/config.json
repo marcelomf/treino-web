@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "teste123",
+    "database": "treino_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "teste123",
+    "database": "treino_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "teste123",
+    "database": "treino_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
