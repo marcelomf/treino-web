@@ -5,7 +5,6 @@ export default {
   async created() {
     if(this.$route.params.id) {
       let response = await this.$http.get(`/pessoa/${this.$route.params.id}`)
-      console.log(response.data)
       this.pessoa = response.data
     }
   },

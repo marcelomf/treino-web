@@ -35,7 +35,6 @@ exports.all = async (req, res) => {
 exports.findById = async (req, res) => {
 	try {
 		let pessoa = await Pessoa.findById(req.params.id);
-		console.log("TESTE");
 		return res.status(200).send(pessoa);
 	} catch(err) {
 		console.log(err);
